@@ -6,10 +6,6 @@ import { dirname, join } from 'node:path';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 dotenv.config({ path: join(__dirname, '..', '.env') });
 
-if (!process.env.GROQ_API_KEY) {
-  throw new Error('GROQ_API_KEY not loaded. Run `cat -A .env` from ~/Hiver to inspect.');
-}
-
 const client = new OpenAI({
   apiKey: process.env.NVIDIA_API_KEY,
   baseURL: process.env.NIM_BASE_URL || 'https://integrate.api.nvidia.com/v1',
