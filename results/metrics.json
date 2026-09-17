@@ -1,0 +1,626 @@
+{
+  "n": 251,
+  "intent": {
+    "agent": {
+      "accuracy": 0.5697211155378487,
+      "macroPrecision": 0.6235465946482897,
+      "macroRecall": 0.5908791481995815,
+      "macroF1": 0.5679739333695963,
+      "perClass": {
+        "account_access": {
+          "precision": 0.5714285714285714,
+          "recall": 0.7272727272727273,
+          "f1": 0.64,
+          "support": 11
+        },
+        "complaint": {
+          "precision": 0.4576271186440678,
+          "recall": 0.7105263157894737,
+          "f1": 0.5567010309278351,
+          "support": 38
+        },
+        "delivery_issue": {
+          "precision": 0.48717948717948717,
+          "recall": 0.76,
+          "f1": 0.59375,
+          "support": 25
+        },
+        "follow_up": {
+          "precision": 0.9318181818181818,
+          "recall": 0.5256410256410257,
+          "f1": 0.6721311475409836,
+          "support": 78
+        },
+        "other": {
+          "precision": 0.15151515151515152,
+          "recall": 0.29411764705882354,
+          "f1": 0.19999999999999998,
+          "support": 17
+        },
+        "praise": {
+          "precision": 0.8333333333333334,
+          "recall": 0.9090909090909091,
+          "f1": 0.8695652173913043,
+          "support": 11
+        },
+        "prime_membership": {
+          "precision": 0.7692307692307693,
+          "recall": 0.35714285714285715,
+          "f1": 0.48780487804878053,
+          "support": 28
+        },
+        "refund_request": {
+          "precision": 0.6666666666666666,
+          "recall": 0.875,
+          "f1": 0.7567567567567567,
+          "support": 16
+        },
+        "return_process": {
+          "precision": 0.6666666666666666,
+          "recall": 0.16666666666666666,
+          "f1": 0.26666666666666666,
+          "support": 12
+        },
+        "technical_issue": {
+          "precision": 0.7,
+          "recall": 0.5833333333333334,
+          "f1": 0.6363636363636365,
+          "support": 12
+        }
+      },
+      "confusion": {
+        "account_access": {
+          "account_access": 8,
+          "complaint": 1,
+          "delivery_issue": 0,
+          "follow_up": 0,
+          "other": 2,
+          "praise": 0,
+          "prime_membership": 0,
+          "refund_request": 0,
+          "return_process": 0,
+          "technical_issue": 0
+        },
+        "complaint": {
+          "account_access": 1,
+          "complaint": 27,
+          "delivery_issue": 2,
+          "follow_up": 1,
+          "other": 4,
+          "praise": 1,
+          "prime_membership": 0,
+          "refund_request": 1,
+          "return_process": 1,
+          "technical_issue": 0
+        },
+        "delivery_issue": {
+          "account_access": 0,
+          "complaint": 2,
+          "delivery_issue": 19,
+          "follow_up": 1,
+          "other": 1,
+          "praise": 0,
+          "prime_membership": 1,
+          "refund_request": 1,
+          "return_process": 0,
+          "technical_issue": 0,
+          "wrong_item": 2
+        },
+        "follow_up": {
+          "account_access": 2,
+          "complaint": 11,
+          "delivery_issue": 7,
+          "follow_up": 41,
+          "other": 14,
+          "praise": 0,
+          "prime_membership": 0,
+          "refund_request": 1,
+          "return_process": 0,
+          "technical_issue": 2
+        },
+        "other": {
+          "account_access": 1,
+          "complaint": 1,
+          "delivery_issue": 4,
+          "follow_up": 0,
+          "other": 5,
+          "praise": 1,
+          "prime_membership": 2,
+          "refund_request": 2,
+          "return_process": 0,
+          "technical_issue": 1
+        },
+        "praise": {
+          "account_access": 0,
+          "complaint": 1,
+          "delivery_issue": 0,
+          "follow_up": 0,
+          "other": 0,
+          "praise": 10,
+          "prime_membership": 0,
+          "refund_request": 0,
+          "return_process": 0,
+          "technical_issue": 0
+        },
+        "prime_membership": {
+          "account_access": 0,
+          "complaint": 9,
+          "delivery_issue": 5,
+          "follow_up": 0,
+          "other": 2,
+          "praise": 0,
+          "prime_membership": 10,
+          "refund_request": 2,
+          "return_process": 0,
+          "technical_issue": 0
+        },
+        "refund_request": {
+          "account_access": 0,
+          "complaint": 2,
+          "delivery_issue": 0,
+          "follow_up": 0,
+          "other": 0,
+          "praise": 0,
+          "prime_membership": 0,
+          "refund_request": 14,
+          "return_process": 0,
+          "technical_issue": 0
+        },
+        "return_process": {
+          "account_access": 0,
+          "complaint": 4,
+          "delivery_issue": 2,
+          "follow_up": 1,
+          "other": 3,
+          "praise": 0,
+          "prime_membership": 0,
+          "refund_request": 0,
+          "return_process": 2,
+          "technical_issue": 0,
+          "wrong_item": 1
+        },
+        "technical_issue": {
+          "account_access": 2,
+          "complaint": 1,
+          "delivery_issue": 0,
+          "follow_up": 0,
+          "other": 2,
+          "praise": 0,
+          "prime_membership": 0,
+          "refund_request": 0,
+          "return_process": 0,
+          "technical_issue": 7
+        }
+      }
+    },
+    "trivial": {
+      "accuracy": 0.3107569721115538,
+      "macroPrecision": 0.031075697211155377,
+      "macroRecall": 0.1,
+      "macroF1": 0.04741641337386018,
+      "perClass": {
+        "account_access": {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "support": 11
+        },
+        "complaint": {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "support": 38
+        },
+        "delivery_issue": {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "support": 27
+        },
+        "follow_up": {
+          "precision": 0.3107569721115538,
+          "recall": 1,
+          "f1": 0.47416413373860183,
+          "support": 78
+        },
+        "other": {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "support": 17
+        },
+        "praise": {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "support": 11
+        },
+        "prime_membership": {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "support": 28
+        },
+        "refund_request": {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "support": 16
+        },
+        "return_process": {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "support": 13
+        },
+        "technical_issue": {
+          "precision": 0,
+          "recall": 0,
+          "f1": 0,
+          "support": 12
+        }
+      },
+      "confusion": {
+        "account_access": {
+          "account_access": 0,
+          "complaint": 0,
+          "delivery_issue": 0,
+          "follow_up": 11,
+          "other": 0,
+          "praise": 0,
+          "prime_membership": 0,
+          "refund_request": 0,
+          "return_process": 0,
+          "technical_issue": 0
+        },
+        "complaint": {
+          "account_access": 0,
+          "complaint": 0,
+          "delivery_issue": 0,
+          "follow_up": 38,
+          "other": 0,
+          "praise": 0,
+          "prime_membership": 0,
+          "refund_request": 0,
+          "return_process": 0,
+          "technical_issue": 0
+        },
+        "delivery_issue": {
+          "account_access": 0,
+          "complaint": 0,
+          "delivery_issue": 0,
+          "follow_up": 27,
+          "other": 0,
+          "praise": 0,
+          "prime_membership": 0,
+          "refund_request": 0,
+          "return_process": 0,
+          "technical_issue": 0
+        },
+        "follow_up": {
+          "account_access": 0,
+          "complaint": 0,
+          "delivery_issue": 0,
+          "follow_up": 78,
+          "other": 0,
+          "praise": 0,
+          "prime_membership": 0,
+          "refund_request": 0,
+          "return_process": 0,
+          "technical_issue": 0
+        },
+        "other": {
+          "account_access": 0,
+          "complaint": 0,
+          "delivery_issue": 0,
+          "follow_up": 17,
+          "other": 0,
+          "praise": 0,
+          "prime_membership": 0,
+          "refund_request": 0,
+          "return_process": 0,
+          "technical_issue": 0
+        },
+        "praise": {
+          "account_access": 0,
+          "complaint": 0,
+          "delivery_issue": 0,
+          "follow_up": 11,
+          "other": 0,
+          "praise": 0,
+          "prime_membership": 0,
+          "refund_request": 0,
+          "return_process": 0,
+          "technical_issue": 0
+        },
+        "prime_membership": {
+          "account_access": 0,
+          "complaint": 0,
+          "delivery_issue": 0,
+          "follow_up": 28,
+          "other": 0,
+          "praise": 0,
+          "prime_membership": 0,
+          "refund_request": 0,
+          "return_process": 0,
+          "technical_issue": 0
+        },
+        "refund_request": {
+          "account_access": 0,
+          "complaint": 0,
+          "delivery_issue": 0,
+          "follow_up": 16,
+          "other": 0,
+          "praise": 0,
+          "prime_membership": 0,
+          "refund_request": 0,
+          "return_process": 0,
+          "technical_issue": 0
+        },
+        "return_process": {
+          "account_access": 0,
+          "complaint": 0,
+          "delivery_issue": 0,
+          "follow_up": 13,
+          "other": 0,
+          "praise": 0,
+          "prime_membership": 0,
+          "refund_request": 0,
+          "return_process": 0,
+          "technical_issue": 0
+        },
+        "technical_issue": {
+          "account_access": 0,
+          "complaint": 0,
+          "delivery_issue": 0,
+          "follow_up": 12,
+          "other": 0,
+          "praise": 0,
+          "prime_membership": 0,
+          "refund_request": 0,
+          "return_process": 0,
+          "technical_issue": 0
+        }
+      }
+    },
+    "keyword": {
+      "accuracy": 0.32669322709163345,
+      "macroPrecision": 0.5903259288973575,
+      "macroRecall": 0.4186813380118334,
+      "macroF1": 0.4036416388564156,
+      "perClass": {
+        "account_access": {
+          "precision": 1,
+          "recall": 0.18181818181818182,
+          "f1": 0.3076923076923077,
+          "support": 11
+        },
+        "complaint": {
+          "precision": 0.3333333333333333,
+          "recall": 0.02631578947368421,
+          "f1": 0.048780487804878044,
+          "support": 38
+        },
+        "delivery_issue": {
+          "precision": 0.6,
+          "recall": 0.3333333333333333,
+          "f1": 0.42857142857142855,
+          "support": 27
+        },
+        "follow_up": {
+          "precision": 0.5454545454545454,
+          "recall": 0.07692307692307693,
+          "f1": 0.13483146067415733,
+          "support": 78
+        },
+        "other": {
+          "precision": 0.08843537414965986,
+          "recall": 0.7647058823529411,
+          "f1": 0.15853658536585366,
+          "support": 17
+        },
+        "praise": {
+          "precision": 0.875,
+          "recall": 0.6363636363636364,
+          "f1": 0.7368421052631579,
+          "support": 11
+        },
+        "prime_membership": {
+          "precision": 0.7027027027027027,
+          "recall": 0.9285714285714286,
+          "f1": 0.7999999999999999,
+          "support": 28
+        },
+        "refund_request": {
+          "precision": 0.7333333333333333,
+          "recall": 0.6875,
+          "f1": 0.7096774193548386,
+          "support": 16
+        },
+        "return_process": {
+          "precision": 0.625,
+          "recall": 0.38461538461538464,
+          "f1": 0.4761904761904762,
+          "support": 13
+        },
+        "technical_issue": {
+          "precision": 0.4,
+          "recall": 0.16666666666666666,
+          "f1": 0.23529411764705882,
+          "support": 12
+        }
+      },
+      "confusion": {
+        "account_access": {
+          "account_access": 2,
+          "complaint": 0,
+          "delivery_issue": 0,
+          "follow_up": 0,
+          "other": 7,
+          "praise": 0,
+          "prime_membership": 1,
+          "refund_request": 0,
+          "return_process": 1,
+          "technical_issue": 0
+        },
+        "complaint": {
+          "account_access": 0,
+          "complaint": 1,
+          "delivery_issue": 1,
+          "follow_up": 1,
+          "other": 29,
+          "praise": 0,
+          "prime_membership": 3,
+          "refund_request": 1,
+          "return_process": 1,
+          "technical_issue": 1
+        },
+        "delivery_issue": {
+          "account_access": 0,
+          "complaint": 0,
+          "delivery_issue": 9,
+          "follow_up": 2,
+          "other": 14,
+          "praise": 0,
+          "prime_membership": 2,
+          "refund_request": 0,
+          "return_process": 0,
+          "technical_issue": 0
+        },
+        "follow_up": {
+          "account_access": 0,
+          "complaint": 2,
+          "delivery_issue": 2,
+          "follow_up": 6,
+          "other": 64,
+          "praise": 1,
+          "prime_membership": 1,
+          "refund_request": 0,
+          "return_process": 1,
+          "technical_issue": 1
+        },
+        "other": {
+          "account_access": 0,
+          "complaint": 0,
+          "delivery_issue": 0,
+          "follow_up": 0,
+          "other": 13,
+          "praise": 0,
+          "prime_membership": 3,
+          "refund_request": 0,
+          "return_process": 0,
+          "technical_issue": 1
+        },
+        "praise": {
+          "account_access": 0,
+          "complaint": 0,
+          "delivery_issue": 1,
+          "follow_up": 0,
+          "other": 2,
+          "praise": 7,
+          "prime_membership": 0,
+          "refund_request": 1,
+          "return_process": 0,
+          "technical_issue": 0
+        },
+        "prime_membership": {
+          "account_access": 0,
+          "complaint": 0,
+          "delivery_issue": 0,
+          "follow_up": 0,
+          "other": 1,
+          "praise": 0,
+          "prime_membership": 26,
+          "refund_request": 1,
+          "return_process": 0,
+          "technical_issue": 0
+        },
+        "refund_request": {
+          "account_access": 0,
+          "complaint": 0,
+          "delivery_issue": 0,
+          "follow_up": 0,
+          "other": 5,
+          "praise": 0,
+          "prime_membership": 0,
+          "refund_request": 11,
+          "return_process": 0,
+          "technical_issue": 0
+        },
+        "return_process": {
+          "account_access": 0,
+          "complaint": 0,
+          "delivery_issue": 2,
+          "follow_up": 1,
+          "other": 4,
+          "praise": 0,
+          "prime_membership": 0,
+          "refund_request": 1,
+          "return_process": 5,
+          "technical_issue": 0
+        },
+        "technical_issue": {
+          "account_access": 0,
+          "complaint": 0,
+          "delivery_issue": 0,
+          "follow_up": 1,
+          "other": 8,
+          "praise": 0,
+          "prime_membership": 1,
+          "refund_request": 0,
+          "return_process": 0,
+          "technical_issue": 2
+        }
+      }
+    }
+  },
+  "escalation": {
+    "agent": {
+      "accuracy": 0.7091633466135459,
+      "precision": 0.6218487394957983,
+      "recall": 0.7254901960784313,
+      "f1": 0.669683257918552,
+      "confusion": {
+        "tp": 74,
+        "fp": 45,
+        "tn": 104,
+        "fn": 28
+      }
+    },
+    "trivial": {
+      "accuracy": 0.4063745019920319,
+      "precision": 0.4063745019920319,
+      "recall": 1,
+      "f1": 0.5779036827195467,
+      "confusion": {
+        "tp": 102,
+        "fp": 149,
+        "tn": 0,
+        "fn": 0
+      }
+    },
+    "keyword": {
+      "accuracy": 0.6095617529880478,
+      "precision": 0.6111111111111112,
+      "recall": 0.10784313725490197,
+      "f1": 0.18333333333333335,
+      "confusion": {
+        "tp": 11,
+        "fp": 7,
+        "tn": 142,
+        "fn": 91
+      }
+    }
+  },
+  "judge": {
+    "mean": 4.229074889867841,
+    "distribution": {
+      "1": 0,
+      "2": 4,
+      "3": 18,
+      "4": 127,
+      "5": 78
+    },
+    "n": 227
+  }
+}

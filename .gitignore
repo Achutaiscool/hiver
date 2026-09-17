@@ -1,0 +1,15 @@
+node_modules/
+venv/
+.env
+__pycache__/
+*.pyc
+.DS_Store
+
+
+*.csv
+src/twcs.csv
+src/sample.csv
+
+results/checkpoint.json
+results/checkpoint.bak.json
+notes/*.tmp

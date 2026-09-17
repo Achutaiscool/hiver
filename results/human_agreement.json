@@ -1,0 +1,162 @@
+[
+  {
+    "tweet_id": "11014",
+    "text": "@AmazonHelp I ordered almost a full week before release. Receiving it almost a full week after. That’s not Prime.",
+    "draft_reply": "@customer I'm sorry for the delay with your Prime order. Let me look into this and get it resolved for you.",
+    "judge_score": 4,
+    "judge_reasoning": "The reply is on-brand, apologetic, and offers to investigate, but it lacks specific actionable details like requesting a DM or providing a tracking lookup.",
+    "human_score": 5
+  },
+  {
+    "tweet_id": "11584",
+    "text": "@AmazonHelp But when will this get solved",
+    "draft_reply": "@customer We understand you're waiting for a resolution. Our team is working on it and will get back to you as soon as possible.",
+    "judge_score": 4,
+    "judge_reasoning": "The reply is on-brand and acknowledges the customer's wait, but it remains generic without providing a specific timeline or actionable next step.",
+    "human_score": 5
+  },
+  {
+    "tweet_id": "12538",
+    "text": "@AmazonHelp I have replied dozen of times first check then reply. So silly",
+    "draft_reply": "@customer We're sorry for the delay and thank you for your patience. Please check your email for our latest update; if you need further assistance, let us know.",
+    "judge_score": 3,
+    "judge_reasoning": "The reply is on-brand and polite but overly generic, failing to address the customer's specific frustration about having replied many times and not offering a concrete next step like a DM or case lookup.",
+    "human_score": 2
+  },
+  {
+    "tweet_id": "13909",
+    "text": "@AmazonHelp So what have you decided my dear @115850 @115821 ?? By this time you should've known the entire issue.I'm expecting a response from you",
+    "draft_reply": "@user We’re sorry for the delay and are looking into your concern. Our team will respond with an update shortly. Thank you for your patience.",
+    "judge_score": 4,
+    "judge_reasoning": "The reply is on-brand, apologetic and promises a follow‑up, but it lacks specificity about the customer's issue and does not provide an actionable step like a DM or tracking lookup.",
+    "human_score": 4
+  },
+  {
+    "tweet_id": "15282",
+    "text": "@AmazonHelp Order details!!! https://t.co/Rapb0ePnLK",
+    "draft_reply": "@user Thanks for sharing your order details. We'll review them and get back to you shortly.",
+    "judge_score": 4,
+    "judge_reasoning": "The reply is on-brand and courteous, acknowledging the shared order details and promising a follow‑up, but it remains generic without offering a concrete action such as a DM or tracking lookup.",
+    "human_score": 5
+  },
+  {
+    "tweet_id": "16432",
+    "text": "@AmazonHelp Yes you have missed the deadline which was set at the time of purchase. After missing that deadline you have given me a new deadline now",
+    "draft_reply": "@customer Sorry for the missed deadline. Please share your order details via DM so we can check the new deadline and assist you further.",
+    "judge_score": 5,
+    "judge_reasoning": "The reply apologizes for the missed deadline, directly addresses the customer's concern about the new deadline, requests order details via DM to verify and assist, and offers a clear, actionable next step without inventing any information.",
+    "human_score": 5
+  },
+  {
+    "tweet_id": "16801",
+    "text": "@AmazonHelp Is there a human working there or robots cant u see i have replied twice guyzzz pls call on 8424869098 #poorcustomerservice #fraud #complain",
+    "draft_reply": "@119620 We’re sorry for the frustration. Please fill out the form via the link in our bio for further assistance, and our team will contact you by phone. ^RW",
+    "judge_score": 2,
+    "judge_reasoning": "The reply addresses the wrong user, ignores the customer's request for a phone call, and offers a generic form link instead of a specific, actionable response.",
+    "human_score": 3
+  },
+  {
+    "tweet_id": "17196",
+    "text": "@AmazonHelp I dont need to contact u now, it is as mistake take that i paid for Prime.",
+    "draft_reply": "@customer We’re sorry for any confusion about your Prime charge. Please DM us your order details so we can review and assist with a refund if needed.",
+    "judge_score": 4,
+    "judge_reasoning": "The reply is on-brand, apologetic, and offers a clear next step (DM for review/refund) without fabricating details, though it is somewhat generic given the customer's ambiguous statement.",
+    "human_score": 2
+  },
+  {
+    "tweet_id": "1738",
+    "text": "@AmazonHelp Already have and the assistance I received was absolutely useless and rude.",
+    "draft_reply": "@customer Sorry for the frustrating experience. I’ve logged your feedback and will share it with the relevant team to improve our service.",
+    "judge_score": 4,
+    "judge_reasoning": "The reply is on-brand, acknowledges the customer's frustration, and offers a generic but safe next step of logging feedback without fabricating details.",
+    "human_score": 3
+  },
+  {
+    "tweet_id": "18119",
+    "text": "@AmazonHelp I have filled the form but I don't expect anything concrete to happen besides paying lip-service. No one comes back to say why this happens",
+    "draft_reply": "@User I'm sorry you haven't heard back. Let me look into this and get back to you with an update soon.",
+    "judge_score": 4,
+    "judge_reasoning": "The reply is on-brand and expresses empathy while promising to follow up, but it remains generic and does not address the specific form or issue the customer mentioned.",
+    "human_score": 5
+  },
+  {
+    "tweet_id": "18413",
+    "text": "@AmazonHelp Call me on 9873388201. I have already spent a good part of my day taking to ur useless customer service and chatting. Not going to fill.",
+    "draft_reply": "@customer We're sorry for the frustration you've experienced. Please DM us your phone number and preferred time so we can arrange a call to help. ^RS",
+    "judge_score": 5,
+    "judge_reasoning": "The reply acknowledges the frustration, directly addresses the request for a call, and provides a clear, actionable next step (DM phone number and preferred time) without inventing any information.",
+    "human_score": 5
+  },
+  {
+    "tweet_id": "18932",
+    "text": "@AmazonHelp You people are compelled me to remove amazon app.sorry but your service is disastrous &amp; suggest people not to use amazon.",
+    "draft_reply": "@user I'm sorry for the frustration. Please send us a DM with your order details so we can look into this and help resolve your concerns.",
+    "judge_score": 4,
+    "judge_reasoning": "The reply is on-brand, expresses sympathy, and provides a clear actionable step (DM with order details) without fabricating information, though it is somewhat generic given the customer's general service complaint.",
+    "human_score": 5
+  },
+  {
+    "tweet_id": "19469",
+    "text": "@AmazonHelp I was scammed. 6 orders, all sellers are gone and nothing send to me, how could I do now? how to stop my prime membership?",
+    "draft_reply": "@customer I'm sorry this happened. Please report the unauthorized orders via Help & Customer Service and you can cancel your Prime membership here: https://t.co/MlOxxuNX7N.",
+    "judge_score": 4,
+    "judge_reasoning": "The reply is on-brand, apologetic, and gives correct actionable steps to report unauthorized orders and cancel Prime, but it is somewhat generic and does not offer personalized assistance or ask for additional details that could improve the response.",
+    "human_score": 2
+  },
+  {
+    "tweet_id": "21014",
+    "text": "@AmazonHelp Ur customer care is disconnecting my call by saying that we would not be able to give you any further I sight over this issue.Please explain",
+    "draft_reply": "@customer We're sorry for the inconvenience. Please DM us so we can look into the call disconnect issue and provide further assistance.",
+    "judge_score": 5,
+    "judge_reasoning": "The reply apologizes, directly references the call disconnect issue, and provides a clear actionable step to DM for further assistance without fabricating any details.",
+    "human_score": 4
+  },
+  {
+    "tweet_id": "21514",
+    "text": "@AmazonHelp Yes I've filled details but still haven't received any call. And I Yesterday I called to customer care and they kept me waiting for 30 mints",
+    "draft_reply": "@customer I'm sorry for the delay and the wait time you experienced. Please share your order or contact details via DM so we can investigate and get you a call back shortly.",
+    "judge_score": 5,
+    "judge_reasoning": "The reply apologizes for the delay, directly addresses the customer's concern about not receiving a call, and provides a clear, actionable next step (DM order/contact details) without inventing any information.",
+    "human_score": 5
+  },
+  {
+    "tweet_id": "21579",
+    "text": "@AmazonHelp Sure..so if compensation is not available...can I name and shame you guys...because u guys are pathetic..can u quickly tell me ur name and employee ID and also ur escalation point of contact..because I am not sitting quiet",
+    "draft_reply": "@user We’re sorry for the frustration. For privacy reasons we can’t share employee details, but we can escalate your concern via DM—please send us a direct message with your order info and we’ll assist promptly.",
+    "judge_score": 5,
+    "judge_reasoning": "The reply is on-brand, acknowledges the customer's frustration, correctly declines to share employee details for privacy, and provides a clear, actionable next step (DM with order info) without fabricating any information.",
+    "human_score": 4 
+  },
+  {
+    "tweet_id": "21970",
+    "text": "@AmazonHelp Grata. Procuro parceria para divulgar pq meus leitores não tem costume de ler ebook. Se tem como anunciar os livros ou divulgar via Amazon",
+    "draft_reply": "@user Obrigado por entrar em contato! Para parcerias de divulgação de livros, recomendo entrar em contato diretamente com o SAC da KDP: https://t.co/iAtVDKIvAN ^CR",
+    "judge_score": 5,
+    "judge_reasoning": "The reply is on-brand, responds in Portuguese, thanks the user, and gives a specific, actionable next step (contact KDP SAC via a provided link) relevant to the partnership inquiry.",
+    "human_score": 4
+  },
+  {
+    "tweet_id": "22565",
+    "text": "@AmazonHelp s/o to Amer at customer service for being helpful and understanding, as well as helping me actually get my money back!",
+    "draft_reply": "@customer Thanks for the kind words! We're glad Amer could help and that you got your refund. Let us know if you need anything else.",
+    "judge_score": 4,
+    "judge_reasoning": "The reply is on-brand, thanks the customer, mentions Amer and the refund accurately, but provides only a generic invitation rather than a specific actionable next step.",
+    "human_score": 5
+  },
+  {
+    "tweet_id": "2556",
+    "text": "@AmazonHelp I made a same day ship mid Monday and it said it would deliver that day. It didn’t. Today it still says out for delivery, still no show.",
+    "draft_reply": "@customer I'm sorry your same-day shipment didn't arrive; could you please DM us your order details so we can investigate? ^LR",
+    "judge_score": 5,
+    "judge_reasoning": "The reply is on-brand, directly addresses the same‑day delivery issue, and provides a clear, actionable next step (DM order details) without inventing any information.",
+    "human_score": 5
+  },
+  {
+    "tweet_id": "4946",
+    "text": "@AmazonHelp Excelente servicio! Recibí mis paquetes hace un par de minutos!",
+    "draft_reply": "@user Gracias por tu mensaje! Nos alegra saber que recibiste tus paquetes. ¡Que tengas un excelente día!",
+    "judge_score": 4,
+    "judge_reasoning": "The reply is on-brand, courteous, and correctly acknowledges the customer's positive feedback, but it is somewhat generic and offers no specific action or follow‑up.",
+    "human_score": 5
+  }
+]
