@@ -119,8 +119,12 @@ my 3). Means match by coincidence, not calibration.
 **Small classes are noisy.** `praise` and `account_access` (n=11 each)
 swing macro-F1 by ~9% on single misclassifications.
 
-**Non-English tweets can't be retrieved.** `clean()` strips non-ASCII,
-so 15 golden tweets labeled `other` get zero grounding.
+**Non-English tweets get no retrieval grounding**. clean() strips
+non-ASCII, so 15 golden tweets labeled other retrieve zero
+neighbors and the agent drafts without Amazon-tone examples.
+Replies still work (the LLM is multilingual and mirrors the tweet's
+language — e.g. 21970 PT→PT, 13458 DE→DE), but the drafting is
+ungrounded.
 
 **Golden labels have noise.** ~10% escalation-call inconsistency; a
 few intent labels are debatable (e.g. `9780` labeled `account_access`
