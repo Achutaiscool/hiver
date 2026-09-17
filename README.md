@@ -138,7 +138,8 @@ is closer to `return_process`).
 1. Replace Jaccard with sentence embeddings (vectors already exist from
    clustering)
 2. Thread-aware context — most tweets are mid-conversation
-3. Multilingual handling
+3. Multilingual retrieval — current clean() strips non-ASCII, so
+non-English tweets get no grounding examples
 4. Inter-judge agreement — second judge to test if the compression
    toward 4 is model-specific
 5. Expand golden set to 500+, cap `follow_up` at 20%, add `wrong_item`
